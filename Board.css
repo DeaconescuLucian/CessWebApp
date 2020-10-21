@@ -1,0 +1,199 @@
+.canvas
+{
+  background-color: rgb(51, 45, 45);
+  display: grid;
+  place-items: center;
+  flex: 0.7;
+  border-bottom: 1px solid rgb(117, 110, 110);
+  border-right: 1px solid rgb(117, 110, 110);
+  border-top: 1px solid rgb(117, 110, 110);
+  color: white;
+}
+
+.board__user
+{
+  display: flex;
+  max-height: 10vh;
+  
+}
+
+.board__user > .timer
+{
+  font-weight: 700;
+  font-size: 30px;
+  background-color:  rgb(51, 45, 45);
+  border: 3px solid rgb(117, 110, 110);
+  display: grid;
+  place-items: center;
+  margin: 5px;
+  
+}
+
+.board__user > h3
+{
+   padding-right: 40vw; 
+   margin-left: 10px;
+   flex: 1;
+}
+
+.board__user > .MuiSvgIcon-root
+{
+   margin-top: 3vh;
+   margin-bottom: 3vh;
+}
+
+.app__board
+{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 60vh;
+  height: 60vh;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.7);
+  border: 10px solid rgb(114, 73, 20);
+  cursor: pointer;
+}
+
+.app__board__reverse
+{
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: whitesmoke;
+  width: 60vh;
+  height: 60vh;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.7);
+  border: 10px solid rgb(114, 73, 20);
+  cursor: pointer;
+}
+
+.app__board__row
+{
+  position: relative;
+  width: 99.8%;
+  height: 12.45%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.06vw;
+  margin-top: 0.06vh;
+  
+}
+
+.app__board__row__reverse
+{
+  position: relative;
+  width: 99.8%;
+  height: 12.45%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 0.06vw;
+  margin-top: 0.06vh;
+  
+}
+
+
+
+.app__board__square__black
+{
+  position: relative;
+  width: 12.5%;
+  height: 100%;
+  background-color: rgb(102, 79, 14);
+  
+  
+  
+}
+
+.app__board__square__black > img
+{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.app__board__square__white
+{
+  position: relative;
+  width: 12.5%;
+  height: 100%;
+  background-color: rgb(156, 172, 133);
+  
+}
+
+
+.app__board__square__white > img
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+
+.app__board__square__selected
+{
+  position: relative;
+  width: 12.5%;
+  height: 100%;
+  background-color: rgb(74, 199, 25);
+  
+  
+  
+}
+
+.app__board__square__selected > img
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+
+.app__board__square__checked
+{
+  position: relative;
+  width: 12.5%;
+  height: 100%;
+  background-color: rgb(255, 7, 7);
+  
+  
+  
+}
+
+.app__board__square__checked > img
+{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.modal
+{
+  width: 40%;
+  height: 30%;
+  background-color:  rgb(51, 45, 45);
+  color: white;
+  margin-left: 45%;
+  margin-top: 15%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+.modal > button
+{
+  width: 30%;
+  height: 40%;
+  background-color:  rgb(51, 45, 45);
+  border: 1px solid lightgray;
+  color: white;
+
+}
